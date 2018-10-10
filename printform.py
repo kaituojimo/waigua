@@ -19,7 +19,7 @@ class PrintForm():
       w = MoniterDev[0][2][2]
       h = MoniterDev[0][2][3]
       w= 1035
-      h=800
+      h=750
       # print w,h　　　#图片大小
       # 为bitmap开辟空间
       saveBitMap.CreateCompatibleBitmap(mfcDC, w, h)
