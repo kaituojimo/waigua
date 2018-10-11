@@ -8,7 +8,7 @@ class Mouse_click():
             print(Doxy)
             Idox = Doxy[0]
             Idoy = Doxy[1]
-            if(Idox < 400):
+            if(Idox < 400 and Idoy > 600):
                 print("识别有误")
                 return
             dm.MoveTo(int(Idox), int(Idoy))
